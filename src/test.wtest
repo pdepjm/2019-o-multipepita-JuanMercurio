@@ -1,0 +1,7 @@
+import pepita.*
+
+test "pepita tiene 340 joules entonces quiere volar 93" {
+	pepita.cambiarEnergia(340)
+	assert.equals(93, pepita.cuantoQuiereVolar())
+}
+

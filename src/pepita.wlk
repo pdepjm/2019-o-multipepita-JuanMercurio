@@ -1,5 +1,9 @@
 object pepita {
 	var energia = 100
+	
+	method cambiarEnergia(nuevaEnergia) {
+		energia = nuevaEnergia
+	}	
 
 	method estaFeliz(){
 		return energia >= 500 and energia <= 1000
